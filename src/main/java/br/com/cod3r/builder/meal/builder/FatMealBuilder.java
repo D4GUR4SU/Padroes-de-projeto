@@ -1,0 +1,29 @@
+package br.com.cod3r.builder.meal.builder;
+
+public class FatMealBuilder extends FastFoodMealBuilder{
+
+	@Override
+	public void buildDrink() {
+		meal.setDrink("MilkShake");
+	}
+
+	@Override
+	public void buildMain() {
+		meal.setMain("TripleCheddarBaconBurger");
+	}
+
+	@Override
+	public void buildSide() {
+		meal.setSide("Onion Rings");
+	}
+
+	@Override
+	public void buildDessert() {
+		meal.setDessert("Large Ice Cream");
+	}
+
+	@Override
+	public void buildGift() {
+		meal.setToy("Hospital pass");
+	}
+}
