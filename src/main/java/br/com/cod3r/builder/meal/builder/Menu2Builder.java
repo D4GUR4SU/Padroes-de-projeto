@@ -9,7 +9,7 @@ public class Menu2Builder extends FastFoodMealBuilder {
 
 	@Override
 	public void buildMain() {
-		meal.setMain("VeggieBurger");
+		meal.setMain("Veggie Burger");
 	}
 
 	@Override

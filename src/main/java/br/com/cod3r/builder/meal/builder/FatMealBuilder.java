@@ -4,12 +4,12 @@ public class FatMealBuilder extends FastFoodMealBuilder{
 
 	@Override
 	public void buildDrink() {
-		meal.setDrink("MilkShake");
+		meal.setDrink("Milk Shake");
 	}
 
 	@Override
 	public void buildMain() {
-		meal.setMain("TripleCheddarBaconBurger");
+		meal.setMain("Triple Cheddar Bacon Burger");
 	}
 
 	@Override
