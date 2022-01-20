@@ -1,4 +1,4 @@
-package br.com.cod3r.bridge.mvc.model;
+package br.com.cod3r.bridge.backend.model;
 
 public class User {
 	private String name;
