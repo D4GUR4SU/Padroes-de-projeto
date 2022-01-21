@@ -1,6 +1,6 @@
-package br.com.cod3r.flyweight.musicPlayer;
+package br.com.cod3r.flyweight.musicPlayer.after;
 
-import br.com.cod3r.flyweight.musicPlayer.service.MusicService;
+import br.com.cod3r.flyweight.musicPlayer.after.service.MusicService;
 
 public class Client {
 
@@ -12,7 +12,7 @@ public class Client {
 		player.listenMusic("User A", "Be Yourself;Audioslave;200");
 		player.listenMusic("User B", "The Unfforgiven;Mettalica;300");
 		player.listenMusic("User B", "Be Yourself;Audioslave;200");
-		
+
 		player.report();
 	}
 }
