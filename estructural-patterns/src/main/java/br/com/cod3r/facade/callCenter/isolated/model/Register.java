@@ -1,4 +1,4 @@
-package br.com.cod3r.facade.callCenter.model;
+package br.com.cod3r.facade.callCenter.isolated.model;
 
 import java.util.Date;
 
