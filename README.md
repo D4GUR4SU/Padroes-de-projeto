@@ -2,8 +2,9 @@
     🚧  Padrões de Projetos 🚀 Em Construção... 🚧
   </h4>
   <br>  
-  <p>
-    <img src="https://img.shields.io/badge/</>-Java-blue">
+  <p align="center">
+    <img src="https://img.shields.io/badge/Java-1.8-blue">
+    <img src="https://img.shields.io/badge/STS-4.13.0.RELEASE-green">
   </p>
 
 ## 💻 Sobre o projeto
@@ -20,7 +21,7 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-**Back End** ([Java 11](https://openjdk.java.net/projects/jdk/11/)) 
+**Back End** ([Java 8](https://openjdk.java.net/install/)) 
 
 **Utilitários**
 
