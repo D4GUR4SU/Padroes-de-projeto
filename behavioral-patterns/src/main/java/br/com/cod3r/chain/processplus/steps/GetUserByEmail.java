@@ -1,7 +1,7 @@
-package br.com.cod3r.chain.process.steps;
+package br.com.cod3r.chain.processplus.steps;
 
-import br.com.cod3r.chain.process.repository.UserRepository;
-import br.com.cod3r.chain.process.service.ProcessContext;
+import br.com.cod3r.chain.processplus.repository.UserRepository;
+import br.com.cod3r.chain.processplus.service.ProcessContext;
 
 public class GetUserByEmail extends ProcessStep {
 	

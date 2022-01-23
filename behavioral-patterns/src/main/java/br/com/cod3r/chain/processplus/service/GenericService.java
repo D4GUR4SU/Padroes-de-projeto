@@ -1,6 +1,6 @@
-package br.com.cod3r.chain.process.service;
+package br.com.cod3r.chain.processplus.service;
 
-import br.com.cod3r.chain.process.steps.ProcessStep;
+import br.com.cod3r.chain.processplus.steps.ProcessStep;
 
 public class GenericService {
 	
