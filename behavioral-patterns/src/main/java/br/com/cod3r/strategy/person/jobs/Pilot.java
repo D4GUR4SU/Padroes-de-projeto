@@ -1,4 +1,4 @@
-package br.com.cod3r.strategy.worker.jobs;
+package br.com.cod3r.strategy.person.jobs;
 
 import br.com.cod3r.strategy.worker.strategies.eat.MeatFoodStrategy;
 import br.com.cod3r.strategy.worker.strategies.transportation.AirplaneStrategy;

@@ -14,17 +14,17 @@ public class Client {
 		worker.work();
 		System.out.println("----------------");
 	}
-	
+
 	public static void main(String[] args) {
+
 		Worker jhon = new Developer();
 		presentYourself(jhon, "Jhon");
-		
+
 		Worker ann = new Pilot();
 		presentYourself(ann, "Ann");
 
 		Worker carol = new HispsterDeveloper();
 		presentYourself(carol, "carol");
-		
-		
+
 	}
 }
