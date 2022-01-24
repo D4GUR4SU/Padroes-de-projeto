@@ -1,5 +1,5 @@
   <h4 align="center"> 
-    🚧  Padrões de Projetos 🚀 Em Construção... 🚧
+    🚧  Padrões de Projetos 🚀 Concluído 🚧
   </h4>
   <br>  
   <p align="center">
