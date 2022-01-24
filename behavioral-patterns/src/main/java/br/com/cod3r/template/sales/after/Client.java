@@ -1,12 +1,12 @@
-package br.com.cod3r.template.sales;
+package br.com.cod3r.template.sales.after;
 
 import java.util.Arrays;
 
-import br.com.cod3r.template.sales.model.Buyer;
-import br.com.cod3r.template.sales.model.Cart;
-import br.com.cod3r.template.sales.model.Category;
-import br.com.cod3r.template.sales.model.Product;
-import br.com.cod3r.template.sales.service.BestOfferService;
+import br.com.cod3r.template.sales.after.model.Buyer;
+import br.com.cod3r.template.sales.after.model.Cart;
+import br.com.cod3r.template.sales.after.model.Category;
+import br.com.cod3r.template.sales.after.model.Product;
+import br.com.cod3r.template.sales.after.service.BestOfferService;
 
 public class Client {
 
@@ -25,6 +25,8 @@ public class Client {
 		Cart cart2 = new Cart(simpleBuyer2, Arrays.asList(notebook, shoes, shorts, mouse));
 		Cart cart3 = new Cart(specialBuyer, Arrays.asList(notebook, shoes, shorts, mouse));
 		Cart cart4 = new Cart(specialBuyer2, Arrays.asList(notebook, shoes, shorts, mouse));
+		Cart cart5 = new Cart(specialBuyer2, Arrays.asList(notebook));
+		Cart cart6 = new Cart(specialBuyer2, Arrays.asList(shorts));
 		
 		BestOfferService service = new BestOfferService();
 		service.calculateBestOffer(cart1);
@@ -34,5 +36,9 @@ public class Client {
 		service.calculateBestOffer(cart3);
 		System.out.println("--------------");
 		service.calculateBestOffer(cart4);
+		System.out.println("--------------");
+		service.calculateBestOffer(cart5);
+		System.out.println("--------------");
+		service.calculateBestOffer(cart6);
 	}
 }
